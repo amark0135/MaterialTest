@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/account"
+        android:icon="@drawable/ic_action_account"
+        android:title="Account"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/ic_action_search"
+        android:title="search"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/setting"
+        android:icon="@drawable/ic_action_setting"
+        android:title="setting"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/smile"
+        android:icon="@drawable/ic_action_smile"
+        android:title="smile"
+        app:showAsAction="ifRoom"/>
+
+</menu>
